@@ -1,0 +1,9 @@
+Nov 6 02:08:20 forelle postfix/smtpd[1406]: connect from mail1.tokati.de[85.158.6.136]!
+Nov 6 02:08:20 forelle sqlgrey: conf: Discrimination verdict: Dont Greylist !
+Nov 6 02:08:20 forelle postfix/smtpd[1406]: 961E320883: client=mail1.tokati.de[85.158.6.136]!
+Nov 6 02:08:20 forelle postfix/cleanup[2063]: 961E320883: message-id=<545AB2F1.4060705@bergwerk-it.de>!
+Nov 6 02:08:20 forelle postfix/qmgr[1389]: 961E320883: from=<steffen.ritschel@bergwerk-it.de>,size=3888, nrcpt=1 (queue active)!
+Nov 6 02:08:20 forelle postfix/smtpd[1406]: disconnect from mail1.tokati.de[85.158.6.136]!
+Nov 6 02:08:24 forelle amavis[1395]: (01395-03) Passed UNCHECKED {RelayedTaggedInbound},[85.158.6.136]:56175 [85.10.242.146] <steffen.ritschel@bergwerk-it.de> -><steffen.ritschel@strandsalz.de>, Queue-ID: 961E320883, Message-ID:<545AB2F1.4060705@bergwerk-it.de>, mail_id: 0wB-VHBSOSBc, Hits: 0.8, size: 3888,queued_as: 1B2CE231A5, 3318 ms!
+Nov 6 02:08:24 forelle postfix/smtp[2064]: 961E320883: to=<steffen.ritschel@strandsalz.de>,relay=127.0.0.1[127.0.0.1]:10024, delay=3.5, delays=0.21/0/0/3.3, dsn=2.0.0, status=sent (2502.0.0 from MTA(smtp:[dorsch.fischteich]:10025): 250 2.0.0 Ok: queued as 1B2CE231A5)!
+Nov 6 02:08:24 forelle postfix/qmgr[1389]: 961E320883: removed!
