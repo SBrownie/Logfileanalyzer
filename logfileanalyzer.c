@@ -31,7 +31,7 @@ static char* darmspiegelung(char *analarr, int tiefe, char* darmzotte){
 		analtok = strtok(analarr,darmzotte);
 		int i = 0;
 		for(i=0;i<tiefe-1;i++){
-			analtok = strtok(NULL, darmzotte);
+			analtok = strtok(NULL, darmzotte); 
 //		printf("analtok: %s\n", analtok);
 		}
 		return analtok;
