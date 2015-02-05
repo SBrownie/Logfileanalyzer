@@ -1,0 +1,33 @@
+ma_id()
+{
+  Überprüfen ob ma_id bereits eingetragen ist. wenn nicht, ma_id eintragen
+}
+
+server()
+{
+  Überprüfen ob server bereits eingetragen ist, wenn nicht server eintragen
+}
+
+zeile_analysieren()
+{
+  Zeile nach Leerzeichen splitten. An zweiter Stelle steht der Server. Select(server). An vierter Stelle steht der Dienst. Select(dienst).
+}
+
+files_einlesen()
+{
+  Pfad abfragen. Aus diesem Pfad alle Dateien einlesen (Auch Unterordner)
+  Diese Dateien zeilenweise auslesen und an zeile_analysieren übergeben
+}
+
+insert_query()
+{
+  Funktion die alle Insert-querys an die Datenbank sendet
+}
+
+select_query()
+{
+  returns SQL-Result
+  Sendet select-staetements an die Datenbank
+}
+
+Funktionen für die einzelnen Dienste in Abhängikeit des Servers
